@@ -82,7 +82,7 @@ export default function EmailModal({ isOpen, onClose, offerId }: EmailModalProps
 
         <div className="space-y-6">
           <h3 className="text-2xl font-semibold text-gray-900">
-            Enter your Discord username to continue
+            Enter your Discord username to continue (make sure your Discord DMs are enabled to receive the tracking link)
           </h3>
           
           <form onSubmit={handleSubmit} className="space-y-4">
